@@ -15,11 +15,8 @@ module.exports = {
         alert,
         title: "RestoQ"
       })
-      
     } catch(error) {
       res.redirect('/resto')
-
-      console.log(error);
     }
   },
   addResto: async (req, res) => {
@@ -30,12 +27,13 @@ module.exports = {
 
       req.flash("alertMessage", "Success add data Restaurant");
       req.flash("alertStatus", "success");
-      req.redirect('/resto');
+      
+      res.redirect('/resto');
 
     } catch(error) {
+      req.flash("alertMessage", `${error.message}`);
+      req.flash("alertStatus", "danger");
       res.redirect('/resto')
-
-      console.log(error);
     } 
   },
 }
