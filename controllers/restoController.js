@@ -15,8 +15,27 @@ module.exports = {
         alert,
         title: "RestoQ"
       })
+      
     } catch(error) {
       res.redirect('/resto')
+
+      console.log(error);
     }
+  },
+  addResto: async (req, res) => {
+    try {
+      const { nama, deskripsi, alamat, favoriteMenu } = req.body;
+
+      await Resto.create({ nama, deskripsi, alamat, favoriteMenu });
+
+      req.flash("alertMessage", "Success add data Restaurant");
+      req.flash("alertStatus", "success");
+      req.redirect('/resto');
+
+    } catch(error) {
+      res.redirect('/resto')
+
+      console.log(error);
+    } 
   },
 }
