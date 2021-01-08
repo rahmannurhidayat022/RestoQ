@@ -13,7 +13,7 @@ module.exports = {
       res.render('index', {
         resto,
         alert,
-        titler: "RestoQ"
+        title: "RestoQ"
       })
     } catch(error) {
       res.redirect('/resto')
