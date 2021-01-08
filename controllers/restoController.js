@@ -27,9 +27,7 @@ module.exports = {
 
       req.flash("alertMessage", "Success add data Restaurant");
       req.flash("alertStatus", "success");
-      
       res.redirect('/resto');
-
     } catch(error) {
       req.flash("alertMessage", `${error.message}`);
       req.flash("alertStatus", "danger");

@@ -17,12 +17,12 @@
       </div>
       <div class="row">
         <div class="col-auto col-lg-12 mt-2">
-          <% if(alert.message != "") { %>
-          <div class="alert alert-<%= alert.status %>" role="alert">
-            <%= alert.message %>
+            <% if(alert.message != "") { %>
+            <div class="alert alert-<%= alert.status %>" role="alert">
+              <%= alert.message %>
+            </div>
+            <% } %>
           </div>
-          <% } %>
-        </div>
       </div>
         <%- include('./includes/_card') %> 
     </div>
