@@ -1,6 +1,6 @@
 <div
   class="modal fade"
-  id="add-modal"
+  id="edit-modal"
   tabindex="-1"
   role="dialog"
   aria-labelledby="exampleModalLabel"
@@ -9,7 +9,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Add Restoran</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Edit Restoran</h5>
         <button
           type="button"
           class="close"
@@ -19,13 +19,13 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form action="/resto" method="POST">
+      <form action="/resto?_method=PUT" method="POST">
         <div class="modal-body">
           <div class="form-group">
             <label for="name">Nama Restoran:</label>
             <input
               type="text"
-              class="form-control"
+              class="form-control nama"
               id="nama"
               name="nama"
               placeholder="Enter nama restoran"
@@ -36,7 +36,7 @@
             <label for="name">Deskripsi:</label>
             <textarea
               type="text"
-              class="form-control"
+              class="form-control deskripsi"
               id="jurusan"
               name="deskripsi"
               placeholder="Enter deskripsi restoran"
@@ -48,7 +48,7 @@
             <label for="name">Alamat</label>
             <textarea
               class="form-control"
-              id="exampleFormControlTextarea1"
+              id="exampleFormControlTextarea1 alamat"
               placeholder="Masukan alamat restoran"
               name="alamat"
               rows="3"
@@ -58,7 +58,7 @@
             <label for="name">Menu Favorit</label>
             <textarea
               class="form-control"
-              id="exampleFormControlTextarea1"
+              id="exampleFormControlTextarea1 favoriteMenu"
               placeholder="Masukan nama menu"
               name="favoriteMenu"
               rows="2"
@@ -69,7 +69,7 @@
           <button type="button" class="btn btn-secondary" data-dismiss="modal">
             Close
           </button>
-          <button type="submit" class="btn btn-primary">Add</button>
+          <button type="submit" class="btn btn-primary">Save</button>
         </div>
       </form>
     </div>

@@ -38,7 +38,7 @@ module.exports = {
 
   editResto: async (req, res) => {
     try{
-      const { nama, deskripsi, alamat, favoriteMenu } = req.body;
+      const { id, nama, deskripsi, alamat, favoriteMenu } = req.body;
 
       const resto = await Resto.findOne({ _id: id });
 
