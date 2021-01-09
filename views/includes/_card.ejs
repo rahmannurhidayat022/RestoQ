@@ -3,11 +3,11 @@
     <div class="col-sm-12 col-md-4 col-lg-3">
       <div class="card my-2 mx-1">
         <div class="card-body">
-          <h5 class="card-title"><%= e.nama %> </h5>
+          <h5 class="card-title"><b><%= e.nama %></b> </h5>
           <div class="menu row d-block">
             <ul>
-              <li>Alamat : <%= e.alamat %> </li>
-              <li>Menu Favorit : <%= e.favoriteMenu %> </li>
+              <li><i class="fa fa-map-marker text-primary" aria-hidden="true"></i> <%= e.alamat %> </li>
+              <li><i class="fa fa-star text-warning" aria-hidden="true"></i> <%= e.favoriteMenu %> </li>
             </ul>
           </div>
           <p class="card-text"><%= e.deskripsi %> </p>

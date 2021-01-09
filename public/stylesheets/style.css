@@ -1,0 +1,37 @@
+.card {
+  min-height: 400px;
+}
+
+.card img {
+  height: 150px;
+  background-position: center;
+  object-fit: cover;
+}
+
+.card .card-title {
+  min-height: 40px;
+}
+
+.card .card-text {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.card .menu {
+  min-height: 120px;
+}
+
+.card .card-text,.menu {
+  font-size: 13px;
+}
+
+.menu ul {
+  padding-left: 20px;
+}
+
+.menu ul li {
+  list-style: none;
+}
