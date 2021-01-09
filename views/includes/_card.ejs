@@ -24,9 +24,12 @@
               </a>
             </div>
             <div class="col-lg-6 col-md-12 my-1 col-sm-12">
-              <a href="#" class="btn btn-block btn-danger">
-                <i class="fa fa-trash" aria-hidden="true"></i>
-              </a>
+              <form action="/resto/<%= e.id %>?_method=DELETE" method="POST">
+                <button class="btn btn-block btn-danger" type="submit" 
+                  onclick="return confirm('Data ini akan terhapus dari database!,yakin ?')">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </button>
+              </form>
             </div>
           </div>
         </div>
