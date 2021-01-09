@@ -43,7 +43,7 @@ module.exports = {
       const resto = await Resto.findOne({ _id: id });
 
       resto.nama = nama;
-      resto.deksripsi = deskripsi;
+      resto.deskripsi = deskripsi;
       resto.alamat = alamat;
       resto.favoriteMenu = favoriteMenu;
 
@@ -52,12 +52,12 @@ module.exports = {
       req.flash("alertMessage", "Success edit data mahasiswa");
       req.flash("alertStatus", "success");
 
-      res.redirect("/mahasiswa");
+      res.redirect("/resto");
     } catch(error) {
       req.flash("alertMessage", `${error.message}`);
       req.flash("alertStatus", "danger");
 
-      res.redirect("/mahasiswa");
+      res.redirect("/resto");
     }
   }
 }

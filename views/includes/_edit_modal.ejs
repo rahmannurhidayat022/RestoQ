@@ -47,8 +47,8 @@
           <div class="form-group">
             <label for="name">Alamat</label>
             <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1 alamat"
+              class="form-control alamat"
+              id="exampleFormControlTextarea1"
               placeholder="Masukan alamat restoran"
               name="alamat"
               rows="3"
@@ -57,8 +57,8 @@
           <div class="form-group">
             <label for="name">Menu Favorit</label>
             <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1 favoriteMenu"
+              class="form-control favoriteMenu"
+              id="exampleFormControlTextarea1"
               placeholder="Masukan nama menu"
               name="favoriteMenu"
               rows="2"
@@ -66,10 +66,11 @@
           </div>
         </div>
         <div class="modal-footer">
+          <input type="hidden" class="id" name="id" />
           <button type="button" class="btn btn-secondary" data-dismiss="modal">
             Close
           </button>
-          <button type="submit" class="btn btn-primary">Save</button>
+          <button type="submit" class="btn btn-primary">Update</button>
         </div>
       </form>
     </div>
