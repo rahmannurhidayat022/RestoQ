@@ -9,7 +9,7 @@ module.exports = {
       const alertStatus = req.flash("AlertStatus");
 
       const alert = { message: alertMessage, status: alertStatus }
-      console.log(resto);
+      
       res.render('index', {
         resto,
         alert,
