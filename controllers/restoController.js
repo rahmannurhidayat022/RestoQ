@@ -19,6 +19,7 @@ module.exports = {
       res.redirect('/resto')
     }
   },
+
   addResto: async (req, res) => {
     try {
       const { nama, deskripsi, alamat, favoriteMenu } = req.body;
@@ -34,4 +35,29 @@ module.exports = {
       res.redirect('/resto')
     } 
   },
+
+  editResto: async (req, res) => {
+    try{
+      const { nama, deskripsi, alamat, favoriteMenu } = req.body;
+
+      const resto = await Resto.findOne({ _id: id });
+
+      resto.nama = nama;
+      resto.deksripsi = deskripsi;
+      resto.alamat = alamat;
+      resto.favoriteMenu = favoriteMenu;
+
+      await resto.save();
+
+      req.flash("alertMessage", "Success edit data mahasiswa");
+      req.flash("alertStatus", "success");
+
+      res.redirect("/mahasiswa");
+    } catch(error) {
+      req.flash("alertMessage", `${error.message}`);
+      req.flash("alertStatus", "danger");
+
+      res.redirect("/mahasiswa");
+    }
+  }
 }
