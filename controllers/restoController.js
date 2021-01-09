@@ -59,5 +59,23 @@ module.exports = {
 
       res.redirect("/resto");
     }
+  },
+
+  deleteResto: async (req, res) => {
+    try{
+      const { id } = req.params;
+
+      const resto = await Resto.findOne({ _id: id });
+
+      await resto.remove();
+
+      req.flash("alertMessage", "Success add data Restaurant");
+      req.flash("alertStatus", "success");
+      res.redirect('/resto');
+    } catch(error) {
+      req.flash("alertMessage", `${error.message}`);
+      req.flash("alertStatus", "danger");
+      res.redirect('/resto')
+    }
   }
 }
