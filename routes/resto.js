@@ -5,5 +5,6 @@ const restoController = require('../controllers/restoController');
 router.get('/', restoController.viewResto);
 router.post('/', restoController.addResto);
 router.put('/', restoController.editResto);
+router.delete('/', restoController.deleteResto);
 
 module.exports = router;
