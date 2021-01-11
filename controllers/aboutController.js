@@ -5,7 +5,7 @@ module.exports = {
     try{
       const about = await About.find();
 
-      res.render('about', { about, title: Teams });
+      res.render('about', { about, title: "Teams" });
     } catch(error) {
       console.log(error);
     }
