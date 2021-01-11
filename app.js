@@ -24,6 +24,7 @@ const restoRouter = require('./routes/resto');
 const app = express();
 
 // view engine setup
+app.use('/public', express.static(path.join(__dirname, "public")));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 

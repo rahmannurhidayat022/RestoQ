@@ -1,0 +1,13 @@
+<div id="teams" class="row my-2">
+  <% teams.forEach(e => { %>
+    <div id="<%= e._id %> " class="col-sm-12 col-md-4 col-lg-3">
+      <div class="card my-2 text-center">
+        <div class="card-header"><%= e.bagian %> </div>
+        <div class="card-body p-0" style="height: 0;">
+          <img class="img-fluid p-0" style="width: 100%; height: 100%;" src="./public/images<%= e.pictureUrl %>" alt="<%= e.pictureUrl %> ">
+        </div>
+        <div class="card-footer text-muted"><%= e.npm %>  - <%= e.nama %> </div>
+      </div>
+    </div>
+  <% }) %>  
+</div>
