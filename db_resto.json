@@ -1,0 +1,107 @@
+[
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d8f"),
+      "nama" : "Raja Rasa",
+      "alamat" : "Jl. Setraria No.1, Sukarasa, Kec. Sukasari, Kota Bandung, Jawa Barat 40164",
+      "favoriteMenu" : "Nasi Goreng, Tahu Bumbu",
+      "deskripsi" : "Daya tarik wisata kuliner di Raja Rasa Bandung ini adalah menyediakan aneka kuliner tradisional sunda yang sangat beragam dan rasanya enak,mulai dari nasi timbel, nasi liwet, aneka olahan ikan bakar dan goreng, sayur asem dll."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d90"),
+      "nama" : "One Eighty Cofee",
+      "alamat" : "Jl. Ganesa No.3, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132",
+      "favoriteMenu" : "Beef Truffle, Akimeshi Katsu",
+      "deskripsi" : "Makan-makan di pinggir kolam renang udah biasa, yang luar biasa itu adalah makan-makan di tengah kolam renang. Sensasi unik yang tak ada duanya ini bisa kamu rasakan di One Eighty Coffee & Music. Kamu bisa nongkrong di tempat duduk yang disediakan di tengah kolam. Biar nggak kebasahan, kamu bisa melipat celanamu dulu sebatas betis. Tapi kalau tidak mau basah-basahan, area seating di dalam ruangan juga tidak kalah bagusnya. Tak hanya suasananya saja yang bikin betah, makanannya juga bikin perut puas. Salah satu yang paling diincar adalah Pizza Quarto Carni yang disajikan dengan sosis, minced beef, daging ayam, serta lelehan keju mozarella yang membuatnya makin terlihat menggiurkan."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d91"),
+      "nama" : "Kalpa Tree Cafe",
+      "alamat" : "Jl. Kiputih No.37, Ciumbuleuit, Kec. Cidadap, Kota Bandung, Jawa Barat 40142",
+      "favoriteMenu" : "BBQ Pizza, Chees Maniac Pizaa",
+      "deskripsi" : "Masih tidak jauh-jauh dari suasana kolam renang yang sejuk, kali ini ada Kalpa Tree Coffee yang akan menghipnotismu dengan suasana super cozy. Kalau pilih area seating di bawah, kamu bisa makan dengan pemandangan kolam yang ciamik. Kalau mau di atas, ada lounge dengan interior yang stylish. Makanan buatan restoran enak di Bandung ini juga tidak bikin kecewa. Jika suasana sedang dingin, maka semangkuk Sop Buntut akan menjadi juaranya. Hangat dan gurihnya siap menghangatkan perut dan jiwa kamu."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d92"),
+      "nama" : "Two Cents",
+      "alamat" : "Jl. Cimanuk No.2, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
+      "favoriteMenu" : "Mango Jambo, Orange Honey Latte",
+      "deskripsi" : "Masih di daerah Riau, kamu juga harus mampir ngopi di Two Cents. Saking nyamannya, restoran paling enak di Bandung ini tidak pernah terlihat sepi setiap hari. Kopi yang disajikan di sini sangat berkualitas dengan rasa yang nendang abis. Kalau lapar, kamu bisa pesan Spicy Sriracha yang kaya protein dan mengenyangkan. Pecinta keju tidak boleh melewatkan Chicken Cheese Baked Rice yang dihidangkan dengan keju super meleleh yang terasa yummy maksimal."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d93"),
+      "nama" : "La Costilla",
+      "alamat" : " Jl. Prof. Dr. Sutami No.98, Pasteur, Kec. Sukasari, Kota Bandung, Jawa Barat 40533",
+      "favoriteMenu" : "Pork Chop, beef fillet steak",
+      "deskripsi" : "Makan di La Costilla itu akan membuat kamu serasa sedang ada di Bali. Interiornya kece banget, didominasi dengan warna pastel yang sangat menggemaskan. Makanannya pun juga Bali banget, seperti salah satu jagoan restoran paling enak di Bandung ini, yaitu USA Giant Ribs. Sesuai dengan namanya, ukuran menu ini sangat besar, paling cocok dimakan sharing rame-rame. Masalah daging, kamu nggak usah takut nyangkut di tulang. Teksturnya empuk banget, bahkan kamu nggak perlu usaha keras buat melepaskan daging dari tulangnya. Ribs ini dimarinasi dengan sempurna, terbukti dari rasa bumbunya yang bisa terasa bahkan sampai ke dalam daging sekalipun."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d94"),
+      "nama" : "Ambrogio Patiserie",
+      "alamat" : " Jl. Banda No.26, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
+      "favoriteMenu" : "Milky chocolatos",
+      "deskripsi" : "Saat membiacarakan cafe ter-hits se kota Bandung, Ambrogio sudah pasti berada dalam listnya. Kenyamanan tempatnya memang nomor satu, diikuti dengan makanannya yang terasa seperti party in your mouth. Mau sarapan di restoran paling enak di Bandung ini juga bisa karena mereka buka dari jam 7 pagi. Ada Mongolian Beef Sandwich yang siap mengisi perutmu di pagi hari. Jangan ketinggalan untuk memesan aneka kue dan rotinya mengingat cafe ini satu grup dengan salah satu toko kue ternama di Bandung. Rasa Carrot Cakenya top banget dan porsinya cukup besar."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d95"),
+      "nama" : "Tafso",
+      "alamat" : " Jl. Baru Laksana No.75, Pagerwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat 40391",
+      "favoriteMenu" : "tenderloin steak,Nasi goreng kampung ala tafso",
+      "deskripsi" : "Restoran paling enak di Bandung yang berada di kawasan ini terkenal dengan udaranya yang super sejuk serta pemandangan city view yang tampak sempurna ketika dinikmati dari dataran tinggi. Kontur tanah yang tidak rata dimanfaatkan Tafso barn membuat area makan seperti cottage yang bertingkat-tingkat dan unik abis. Makanan yang ditawarkan juga juara, seperti Beef Bowl Rice yang harganya murah dan rasanya enak."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d96"),
+      "nama" : "Cafe D'pakar",
+      "alamat" : "Jalan Dago Pakar Utara,, Sekejolang, Ciburial, Kec. Cimenyan, Bandung, Jawa Barat 40198",
+      "favoriteMenu" : "Nasi Goreng Spesial, Mie Rebus Spesial",
+      "deskripsi" : "Biarpun harus menempuh jarak sekitar 45 menit dari Kota Bandung sebelum sampai ke Cafe D'Pakar, pengalaman kuliner yang akan kamu dapatkan di restoran paling enak di Bandung ini sangat worth it. Pemandangannya super hijau, dikelilingi butik dan pepohonan yang membuat suasana makin asri. Meski terdapat pilihan Western food, sungguh tidak ada yang bisa menandingi kelezatan makanan lokal, seperti Batagor yang gurihnya bikin ingin tambah terus. Kalau kedinginan, kamu juga bisa menghangatkan diri dengan Sekoteng panas yang legit."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d97"),
+      "nama" : "Lawang wangi",
+      "alamat" : "Jl. Dago Giri No.99, Mekarwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat 40391",
+      "favoriteMenu" : "Fettucine carbonara",
+      "deskripsi" : "Lawang Wangi tidak hanya terkenal di mata seniman, banyak pula foodies yang tertarik kulineran di sini berkat desain restorannya yang modern dan minimalis. Tempatnya artistik sekali, bahkan di beberapa titik, kamu bisa menikmati instalasi-instalasi seni yang sangat artsy. Soal makanan, tak ada yang mengalahkan pedasnya Chicken Lawangwangi yang fenomenal itu. Tersaji dalam balutan sambal merah segar, Ayam Goreng ini terasa makin dahsyat saat disantap bersama nasi hangat, emping, dan sayur lalapan."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d98"),
+      "nama" : "Lereng Anteng",
+      "alamat" : " Kampung Pagermaneuh, RT. 03/07, Pagerwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat 40391",
+      "favoriteMenu" : "Roti Bakar Kukus,Black Tea",
+      "deskripsi" : "Buat kamu yang selalu bermimpi ingin camping tapi belum kesampaian, kamu bisa mencoba sensasi makan di dalam tenda yang ada di Lereng Anteng. Tendanya pun nggak sembarangan, bentuknya instagenic sekali dengan cover transparan meski sederhana. Pemandangan di Lereng Anteng luar biasa indah, apalagi kalau kamu ke sini saat malam. Citylight yang benderang bisa membuat suasana makin romantis. Berhubungan lokasinya berada di Lembang, wajib hukumnya untuk memesan Kopi panas agar tubuh tetap hangat. Temani kopimu dengan jajanan khas Bandung seperti Seblak atau Batagor."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d99"),
+      "nama" : "Chingu cafe",
+      "alamat" : "Sawunggaling No. 10, Dago Bawah, Bandung",
+      "favoriteMenu" : "Bingsoo of the Blue Sea",
+      "deskripsi" : "Penggemar drama Korea atau K-Pop pasti akan terkesan jika mampir di Chingu Cafe. Suasana restoran paling enak di Bandung ini disulap layaknya seperti di Korea. Kamu bahkan bisa berfoto dengan baju tradisional Korea alias Hanbok di tempat ini. Agar suasananya makin Korea, pesanlah Wings Set yang menjadi salah satu makanan populer di Korea. Dalam satu menu ini, kamu dapat menikmati chicken wings, toppoki, french fries yang bisa digulung-gulung dalam selimut keju mozarella."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d9a"),
+      "nama" : "Kampung daun",
+      "alamat" : "Jl. Sersan Bajuri No.88 Km.4,7, Cihideung, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat 40154",
+      "favoriteMenu" : "Bakwan Jagung",
+      "deskripsi" : "Ini dia salah satu restoran paling enak di Bandung yang cocok jadi tujuan saat kamu berlibur dengan keluarga. Sejuk, itulah suasana yang menggambarkan Kampung Daun. Konsep restoran ini seperti sebuah kampung, lengkap dengan kolam-kolam buatan dan pepohonan asri. Area makannya pun ada di dalam saung, sangat private dan nyaman sekali. Makanan Sunda menjadi primadona di Kampung Daun. Buat yang suka sambal pedas, Ayam Goreng Kremes harus menjadi piliham. Rasnaya nikmat sekali dengan ayam yang renyah, disantap bersama sambal pedas yang bikin nagih."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d9b"),
+      "nama" : "Sydwic",
+      "alamat" : "Jl. Cilaki No.63, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
+      "favoriteMenu" : "Creamy Chicken Butter Rice",
+      "deskripsi" : "Tempat yang kecil tidak menjadi masalah untuk para foodies menghabiskan hari di restoran paling enak di Bandung ini. Luangkan waktu sejenak mencicipi secangkir kopi atau Affogato di Sydwic yang terasa brilian. Ini dapat diimbangi dengan mengisi perut pakai seporsi Ribs yang harganya murah meriah. Biarpun terjangkau, rasanya bisa diterima lidah dan tak mengecewakan."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d9c"),
+      "nama" : "Wild Grass",
+      "alamat" : "Jl. Gunung Kareumbi Jl. Ciumbuleuit No.10, Ciumbuleuit, Kec. Cidadap, Kota Bandung, Jawa Barat 40141",
+      "favoriteMenu" : "beef stone pot rice",
+      "deskripsi" : "Wild Grass ibaratnya adalah hidden gem karena terletak di lokasi yang terpencil. Tapi itu tidak menyurutkan semangat para foodies untuk merasakan serunya nongkrong di sini. Ini terbukti dengan tempatnya yang selalu rame, bahkan kalau sedang full, tak jarang kita harus masuk waiting list dulu. Biarpun suasananya padat, tempatnya selalu adem dan nyaman sekali. Interiornya sudah jelas fotogenik dan nggak memalukan buat di upload di social media. Kalau doyan Ayam, Cajun Grilled Chicken pasti bakal bikin hidup kamu lebih bahagia. Satu porsi Ayam ini sangat besar, dagingnya empuk, bumbunya meresap, adan ada mashed potato juga yang lembut dan terasa lezat."
+  },
+  {
+      "_id" : ObjectId("5ff9ba83d32ac666d5de7d9d"),
+      "nama" : "Kapulaga",
+      "alamat" : "Jl. Dayang Sumbi No.3, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132",
+      "favoriteMenu" : "Ayam Goreng Kremes",
+      "deskripsi" : "Nama restoran yang Indonesia banget menggambarkan jenis sajian yang coba mereka tawarkan. Meski berbau lokal, interior restoran paling enak di Bandung ini sama sekali tidak kampungan. Dibalut dalam suasana modern yang simple, Kapulaga memiliki daya tarik yang tinggi. Makanan lokal seperti Gurame Bakar Jimbaran juga menambah semangat untuk mampir di sini. Olahan ikannya begitu sempurna dipadu dengan bumbu khas nusantara. Tidak hanya itu, terdapat pula sambal terasi dan sambal matah yang rasanya kuat namun tidak bisa ditolak."
+  }
+]
