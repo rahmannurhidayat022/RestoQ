@@ -1,37 +1,35 @@
-[
-  {
-      "_id" : ObjectId("5ffc60c7bce719ecca7a7242"),
-      "nama" : "Rahman Nurhidayat",
-      "npm" : 1942492,
-      "pictureUrl" : "/teams/rahman.jpg",
-      "bagian" : "Back-End"
-  },
-  {
-      "_id" : ObjectId("5ffc60c7bce719ecca7a7243"),
-      "nama" : "Panji Prasetyo",
-      "npm" : 1942484,
-      "pictureUrl" : "/teams/panji.jpg",
-      "bagian" : "Data Riset"
-  },
-  {
-      "_id" : ObjectId("5ffc60c7bce719ecca7a7244"),
-      "nama" : "Rizal Azis",
-      "npm" : 1942523,
-      "pictureUrl" : "/teams/rizal.jpg",
-      "bagian" : "Document Report"
-  },
-  {
-      "_id" : ObjectId("5ffc60c7bce719ecca7a7245"),
-      "nama" : "Ryan Ariansyah R",
-      "npm" : 1942490,
-      "pictureUrl" : "/teams/ryan.jpg",
-      "bagian" : "Front-End"
-  },
-  {
-      "_id" : ObjectId("5ffc60c7bce719ecca7a7246"),
-      "nama" : "Fahmi M Hakim",
-      "npm" : 1942491,
-      "pictureUrl" : "/teams/fahmi.jpg",
-      "bagian" : "Document Presentation"
-  }
-]
+{ 
+    "_id" : ObjectId("6004d8df470314d689ef3c45"), 
+    "nama" : "Rahman Nurhidayat", 
+    "npm" : NumberInt(1942492), 
+    "pictureUrl" : "/teams/rahman.jpg", 
+    "bagian" : "Back-End"
+}
+{ 
+    "_id" : ObjectId("6004d8df470314d689ef3c46"), 
+    "nama" : "Panji Pratyo", 
+    "npm" : NumberInt(1942484), 
+    "pictureUrl" : "/teams/panji.jpg", 
+    "bagian" : "Data Riset"
+}
+{ 
+    "_id" : ObjectId("6004d8df470314d689ef3c47"), 
+    "nama" : "Rizal Aziz", 
+    "npm" : NumberInt(1942523), 
+    "pictureUrl" : "/teams/rizal.jpg", 
+    "bagian" : "Document Report"
+}
+{ 
+    "_id" : ObjectId("6004d8df470314d689ef3c48"), 
+    "nama" : "Ryan Ariansyah R", 
+    "npm" : NumberInt(1942490), 
+    "pictureUrl" : "/teams/ryan.jpg", 
+    "bagian" : "Front-End"
+}
+{ 
+    "_id" : ObjectId("6004d8df470314d689ef3c49"), 
+    "nama" : "Famhi M Hakim", 
+    "npm" : NumberInt(1942491), 
+    "pictureUrl" : "/teams/fahmi.jpg", 
+    "bagian" : "Document Presentation"
+}
